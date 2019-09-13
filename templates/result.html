@@ -1,0 +1,22 @@
+<!-- <img src="data:image/png;base64,{{value}}"> -->
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Test Page</title>
+	<link href="{{ url_for('static',filename='css/style_result.css') }}" rel="stylesheet">
+
+</head>
+<body 	>
+	<h1 class = "header" > Lesion Detection System</h1>
+	{% if value['found'] ==1 %}
+		<label type="Warning">RESULT : Lesion Found</label>
+		<img src="data:image/png;base64,{{value['img']}}" alt="Detected cancer">
+		<p type="info" > Blue cells are identified to be carcinogenic </p>
+		<img type=report src="./static/images/report.PNG">
+
+	{% else %}
+		<p type="h_warning" align="right">No Lesion found </p>
+	{% endif %}
+</body>
+</html>

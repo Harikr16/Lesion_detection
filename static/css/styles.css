@@ -1,0 +1,391 @@
+h1.header {
+  color: darkslategrey;
+  font-family: verdana;
+  font-size: 300%;
+  text-align: center;
+  position: relative;
+  right:20%;
+  left :20%;
+  width: 60%;
+  height: 75px;
+  top: 80px;
+  border: 3px solid #73AD21;
+}
+p  {
+	position: relative;
+	top: 160px;
+  color: red;
+  font-family: courier;
+  font-size: 160%;
+  text-align: center;
+}
+body {
+  background-image: url(../images/bg1.jpg);
+
+  height : 200%;
+  color : blue;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+form {
+	position: relative;
+	top: 250px;
+	color: red;
+	font-size: 200%;
+}
+/*[type="file"] {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  white-space: nowrap;
+  width: 1px;
+}
+ 
+[type="file"] + label {
+  background-color: #000;
+  border-radius: 4rem;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  height: 4rem;
+  line-height: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  transition: background-color 0.3s;
+  right : 40%;
+  left : 10%;
+  width : 20%;
+  text-align:center;
+
+}
+  
+[type="file"]:focus + label,
+[type="file"] + label:hover {
+    background-color: #f15d22;
+}
+ 
+[type="file"]:focus + label {
+  outline: 1px dotted #000;
+  outline: -webkit-focus-ring-color auto 5px;
+}
+
+[type="file"] {
+  height: 0;
+  overflow: hidden;
+  width: 0;
+}
+
+[type="file"] + label {
+  background: #f15d22;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+	font-family: 'Poppins', sans-serif;
+	font-size: inherit;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  outline: none;
+  padding: 1rem 50px;
+  position: relative;
+  transition: all 0.3s;
+  vertical-align: middle;
+  
+  &:hover {
+    background-color: darken(#f15d22, 10%);
+  }
+  
+  &.btn-1 {
+    background-color: #f79159;
+    box-shadow: 0 6px darken(#f79159, 10%);
+    transition: none;
+
+    &:hover {
+      box-shadow: 0 4px darken(#f79159, 10%);
+      top: 2px;
+    }
+  }
+  
+  &.btn-2 {
+    background-color: #99c793;
+    border-radius: 50px;
+    overflow: hidden;
+    
+    &::before {
+      color: #fff;
+      content: "\f382";
+      font-family: "Font Awesome 5 Pro";
+      font-size: 100%;
+      height: 100%;
+      right: 130%;
+      line-height: 3.3;
+      position: absolute;
+      top: 0px;
+      transition: all 0.3s;
+    }
+
+    &:hover {
+      background-color: darken(#99c793, 30%);
+        
+      &::before {
+        right: 75%;
+      }
+    }
+  }
+  
+  &.btn-3 {
+    background-color: #ee6d9e;
+    border-radius: 0;
+    overflow: hidden;
+    
+    span {
+      display: inline-block;
+      height: 100%;
+      transition: all 0.3s;
+      width: 100%;
+    }
+    
+    &::before {
+      color: #fff;
+      content: "\f382";
+      font-family: "Font Awesome 5 Pro";
+      font-size: 130%;
+      height: 100%;
+      left: 0;
+      line-height: 2.6;
+      position: absolute;
+      top: -180%;
+      transition: all 0.3s;
+      width: 100%;
+    }
+
+    &:hover {
+      background-color: darken(#ee6d9e, 30%);
+      
+      span {
+        transform: translateY(300%);
+      }
+        
+      &::before {
+        top: 0;
+      }
+    }
+  }
+}
+*/
+
+
+/*.js .inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.no-js .inputfile + label {
+    display: none;
+}*/
+
+[type="submit"] {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 100px;
+  overflow: hidden;
+  padding: 0;
+  /*top : 150px;*/
+  position: relative !important;
+  white-space: nowrap;
+  width: 100px;
+  background-color: #000;
+  border-radius: 4rem;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  height: 4rem;
+  line-height: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  transition: background-color 0.3s;
+  right : 40%;
+  left : 40%;
+  width : 20%;
+  text-align:center;
+}
+[type="file"] {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 100px;
+  overflow: hidden;
+  padding: 0;
+  top : 150px;
+  position: relative !important;
+  white-space: nowrap;
+  width: 100px;
+  background-color: #000;
+  border-radius: 4rem;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  height: 4rem;
+  line-height: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  transition: background-color 0.3s;
+  right : 0%;
+  left : 0%;
+  width : 20%;
+  text-align:center;
+}
+ /*
+[type="submit"] + label {
+  background-color: #000;
+  border-radius: 4rem;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  height: 4rem;
+  line-height: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  transition: background-color 0.3s;
+  right : 40%;
+  left : 40%;
+  width : 20%;
+  text-align:center;
+
+}
+  
+[type="submit"]:focus + label,
+[type="submit"] + label:hover {
+    background-color: #f15d22;
+}
+ 
+[type="submit"]:focus + label {
+  outline: 1px dotted #000;
+  outline: -webkit-focus-ring-color auto 5px;
+}
+
+[type="submit"] {
+  height: 0;
+  overflow: hidden;
+  width: 0;
+}
+
+[type="submit"] + label {
+  background: #f15d22;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+	font-family: 'Poppins', sans-serif;
+	font-size: inherit;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  outline: none;
+  padding: 1rem 50px;
+  position: relative;
+  transition: all 0.3s;
+  vertical-align: middle;
+  
+  &:hover {
+    background-color: darken(#f15d22, 10%);
+  }
+  
+  &.btn-1 {
+    background-color: #f79159;
+    box-shadow: 0 6px darken(#f79159, 10%);
+    transition: none;
+
+    &:hover {
+      box-shadow: 0 4px darken(#f79159, 10%);
+      top: 2px;
+    }
+  }
+  
+  &.btn-2 {
+    background-color: #99c793;
+    border-radius: 50px;
+    overflow: hidden;
+    
+    &::before {
+      color: #fff;
+      content: "\f382";
+      font-family: "Font Awesome 5 Pro";
+      font-size: 100%;
+      height: 100%;
+      right: 130%;
+      line-height: 3.3;
+      position: absolute;
+      top: 0px;
+      transition: all 0.3s;
+    }
+
+    &:hover {
+      background-color: darken(#99c793, 30%);
+        
+      &::before {
+        right: 75%;
+      }
+    }
+  }
+  
+  &.btn-3 {
+    background-color: #ee6d9e;
+    border-radius: 0;
+    overflow: hidden;
+    
+    span {
+      display: inline-block;
+      height: 100%;
+      transition: all 0.3s;
+      width: 100%;
+    }
+    
+    &::before {
+      color: #fff;
+      content: "\f382";
+      font-family: "Font Awesome 5 Pro";
+      font-size: 130%;
+      height: 100%;
+      left: 0;
+      line-height: 2.6;
+      position: absolute;
+      top: -180%;
+      transition: all 0.3s;
+      width: 100%;
+    }
+
+    &:hover {
+      background-color: darken(#ee6d9e, 30%);
+      
+      span {
+        transform: translateY(300%);
+      }
+        
+      &::before {
+        top: 0;
+      }
+    }
+  }
+}*/
